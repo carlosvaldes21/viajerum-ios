@@ -18,6 +18,16 @@ Swift para el desarrollo de la aplicación
 XCode como IDE de desarrollo
 Backend desarrollado con laravel y mysql para el almacenamiento de datos y autenticación de usuarios
 
+## Descripción del logo
+El logo representa el amor por los viajes que tienen muchas personas, es por eso que viajerum se identificó con ese logo.
+
+## Justificación
+Se eligió la posición vertical debido a que puede ser más fácil de usar en dispositivos móviles, que es donde la mayoría de los usuarios acceden a la aplicación. Al diseñar la interfaz de usuario en modo portrait, se puede aprovechar mejor el espacio vertical de la pantalla, lo que permite mostrar más contenido sin tener que desplazarse horizontalmente. Además, puede facilitar la navegación a través de la aplicación, ya que los elementos están dispuestos de forma más clara y organizada.
+
+Utilizamos la versión 15, para que la mayoría de usuarios tengan acceso a la aplicación.
+
+Para acceder a la aplicación, no se necesitan credenciales especificas, dado que pueden registrarse para generar un usuario y probar con el mismo.
+
 ## Imágenes
 
 <img src="/1.PNG" align="left" width="150">
