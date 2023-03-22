@@ -1,20 +1,63 @@
+
 //
 //  LoaderButton.swift
-//  Viajerum
 //
-//  Created by Carlos Valdes on 17/03/23.
-//
-
 import UIKit
-
+// 1
 class LoaderButton: UIButton {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    // 2
+    var spinner = UIActivityIndicatorView()
+    // 3
+    var isLoading = false {
+        didSet {
+            // whenever `isLoading` state is changed, update the view
+            updateView()
+        }
     }
-    */
-
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        // 4
+        setupView()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        setupView()
+    }
+    
+    func setupView() {
+        // 5
+        spinner.hidesWhenStopped = true
+        // to change spinner color
+        spinner.color = .blue
+        // default style
+        spinner.style = .medium
+        
+        // 6
+        // add as button subview
+        addSubview(spinner)
+        // set constraints to always in the middle of button
+        spinner.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            spinner.centerXAnchor.constraint(equalTo: self.centerXAnchor),
+            spinner.centerYAnchor.constraint(equalTo: self.centerYAnchor)
+        ])
+    }
+    
+    // 7
+    func updateView() {
+        if isLoading {
+            spinner.startAnimating()
+            titleLabel?.alpha = 0
+            imageView?.alpha = 0
+            // to prevent multiple click while in process
+            isEnabled = false
+        } else {
+            spinner.stopAnimating()
+            titleLabel?.alpha = 1
+            imageView?.alpha = 0
+            isEnabled = true
+        }
+    }
 }

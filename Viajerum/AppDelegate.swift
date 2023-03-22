@@ -7,16 +7,39 @@
 
 import UIKit
 import CoreData
+import Network
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
+    var internetStatus = false
+    var internetType = ""
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let monitor = NWPathMonitor()
+        // ....
+        monitor.start(queue:DispatchQueue.global())
+        monitor.pathUpdateHandler = { path in
+            if path.status == .satisfied {
+                // ejecutar un Ping para alcanzar el host que nos interesa (TODO: buscar un paquete que haga eso....)
+                self.internetStatus = true
+                if path.usesInterfaceType(.wifi) {
+                    self.internetType = "WiFi"
+                }
+                else {
+                    self.internetType = "no WiFi"
+                }
+            }
+            else {
+                self.internetStatus = false
+                self.internetType = ""
+            }
+        }
         return true
     }
+
 
     // MARK: UISceneSession Lifecycle
 

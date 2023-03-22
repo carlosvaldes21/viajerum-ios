@@ -10,20 +10,26 @@ import UIKit
 class AuthViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        if let receivedData = KeyChain.load(key: "auth_token") {
+            let result = String(decoding: receivedData, as: UTF8.self)
+            if ( result != "" ) {
+                showHome()
+            } else {
+                super.viewDidLoad()
+            }
+        }
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    private func showHome()
+    {
+        performSegue(withIdentifier: "showHome", sender: self)
     }
-    */
+    
+    
+    @IBAction func unwindToAuth( _ sender: UIStoryboardSegue ){
+        
+    }
+
 
 }

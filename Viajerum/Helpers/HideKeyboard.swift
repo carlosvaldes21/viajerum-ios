@@ -1,8 +1,14 @@
-//
-//  HideKeyBoard.swift
-//  Viajerum
-//
-//  Created by Carlos Valdes on 18/03/23.
-//
+import UIKit
 
-import Foundation
+// Put this piece of code anywhere you like
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
+}

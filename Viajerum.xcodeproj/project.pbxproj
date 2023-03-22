@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07238D9729CA2D93004BC96B /* AddReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07238D9629CA2D93004BC96B /* AddReviewViewController.swift */; };
 		078566A929C3F64E00BC1134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078566A829C3F64E00BC1134 /* AppDelegate.swift */; };
 		078566AB29C3F64E00BC1134 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078566AA29C3F64E00BC1134 /* SceneDelegate.swift */; };
 		078566AD29C3F64E00BC1134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078566AC29C3F64E00BC1134 /* ViewController.swift */; };
@@ -14,9 +15,30 @@
 		078566B329C3F64E00BC1134 /* Viajerum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 078566B129C3F64E00BC1134 /* Viajerum.xcdatamodeld */; };
 		078566B529C3F64F00BC1134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078566B429C3F64F00BC1134 /* Assets.xcassets */; };
 		078566B829C3F64F00BC1134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078566B629C3F64F00BC1134 /* LaunchScreen.storyboard */; };
+		078566C429C400F900BC1134 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078566C329C400F900BC1134 /* AuthViewController.swift */; };
+		078566C829C4053A00BC1134 /* WorkSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 078566C729C4053A00BC1134 /* WorkSans-Regular.ttf */; };
+		078566CA29C40A5F00BC1134 /* tilwrap.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 078566C929C40A5F00BC1134 /* tilwrap.ttf */; };
+		078566CC29C40C7500BC1134 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078566CB29C40C7500BC1134 /* LoginViewController.swift */; };
+		078566CE29C414AE00BC1134 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078566CD29C414AE00BC1134 /* RegisterViewController.swift */; };
+		078566D029C4193400BC1134 /* GenericModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078566CF29C4193400BC1134 /* GenericModel.swift */; };
+		078566D929C4FDF500BC1134 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078566D829C4FDF500BC1134 /* KeyChain.swift */; };
+		078566E129C510BA00BC1134 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078566E029C510BA00BC1134 /* HomeViewController.swift */; };
+		078566E329C5169D00BC1134 /* LoaderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078566E229C5169D00BC1134 /* LoaderButton.swift */; };
+		078566F029C5355900BC1134 /* HorizontalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078566EE29C5355900BC1134 /* HorizontalCollectionViewCell.swift */; };
+		078566F129C5355900BC1134 /* HorizontalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078566EF29C5355900BC1134 /* HorizontalCollectionViewCell.xib */; };
+		079902F429C6A04500E26CAB /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079902F329C6A04500E26CAB /* PlaceViewController.swift */; };
+		079902F729C6A2CA00E26CAB /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079902F529C6A2CA00E26CAB /* ReviewTableViewCell.swift */; };
+		079902F829C6A2CA00E26CAB /* ReviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 079902F629C6A2CA00E26CAB /* ReviewTableViewCell.xib */; };
+		079902FA29C6DA5A00E26CAB /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079902F929C6DA5A00E26CAB /* HideKeyboard.swift */; };
+		07A4D95529CB85D20040ABCE /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A4D95429CB85D20040ABCE /* Network.framework */; };
+		07A4D95729CB86240040ABCE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A4D95629CB86240040ABCE /* WebKit.framework */; };
+		07B9A3F829C569B40066A02B /* VerticalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B9A3F629C569B40066A02B /* VerticalTableViewCell.swift */; };
+		07B9A3F929C569B40066A02B /* VerticalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B9A3F729C569B40066A02B /* VerticalTableViewCell.xib */; };
+		07F3741929CA1D11008D0342 /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = 07F3741829CA1D11008D0342 /* Cosmos */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07238D9629CA2D93004BC96B /* AddReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewViewController.swift; sourceTree = "<group>"; };
 		078566A529C3F64E00BC1134 /* Viajerum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viajerum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		078566A829C3F64E00BC1134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		078566AA29C3F64E00BC1134 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +48,25 @@
 		078566B429C3F64F00BC1134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		078566B729C3F64F00BC1134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		078566B929C3F64F00BC1134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078566C329C400F900BC1134 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		078566C729C4053A00BC1134 /* WorkSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.ttf"; sourceTree = "<group>"; };
+		078566C929C40A5F00BC1134 /* tilwrap.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tilwrap.ttf; sourceTree = "<group>"; };
+		078566CB29C40C7500BC1134 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		078566CD29C414AE00BC1134 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		078566CF29C4193400BC1134 /* GenericModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericModel.swift; sourceTree = "<group>"; };
+		078566D829C4FDF500BC1134 /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
+		078566E029C510BA00BC1134 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		078566E229C5169D00BC1134 /* LoaderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderButton.swift; sourceTree = "<group>"; };
+		078566EE29C5355900BC1134 /* HorizontalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionViewCell.swift; sourceTree = "<group>"; };
+		078566EF29C5355900BC1134 /* HorizontalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalCollectionViewCell.xib; sourceTree = "<group>"; };
+		079902F329C6A04500E26CAB /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		079902F529C6A2CA00E26CAB /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		079902F629C6A2CA00E26CAB /* ReviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewTableViewCell.xib; sourceTree = "<group>"; };
+		079902F929C6DA5A00E26CAB /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
+		07A4D95429CB85D20040ABCE /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		07A4D95629CB86240040ABCE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		07B9A3F629C569B40066A02B /* VerticalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalTableViewCell.swift; sourceTree = "<group>"; };
+		07B9A3F729C569B40066A02B /* VerticalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerticalTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F3741929CA1D11008D0342 /* Cosmos in Frameworks */,
+				07A4D95529CB85D20040ABCE /* Network.framework in Frameworks */,
+				07A4D95729CB86240040ABCE /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +88,7 @@
 			children = (
 				078566A729C3F64E00BC1134 /* Viajerum */,
 				078566A629C3F64E00BC1134 /* Products */,
+				07A4D95329CB85D20040ABCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +103,10 @@
 		078566A729C3F64E00BC1134 /* Viajerum */ = {
 			isa = PBXGroup;
 			children = (
+				078566D729C4FDE100BC1134 /* Helpers */,
+				078566C529C402D400BC1134 /* Fonts */,
+				078566C229C400E000BC1134 /* Controllers */,
+				078566BF29C400BC00BC1134 /* Models */,
 				078566A829C3F64E00BC1134 /* AppDelegate.swift */,
 				078566AA29C3F64E00BC1134 /* SceneDelegate.swift */,
 				078566AC29C3F64E00BC1134 /* ViewController.swift */,
@@ -66,8 +115,63 @@
 				078566B629C3F64F00BC1134 /* LaunchScreen.storyboard */,
 				078566B929C3F64F00BC1134 /* Info.plist */,
 				078566B129C3F64E00BC1134 /* Viajerum.xcdatamodeld */,
+				078566E229C5169D00BC1134 /* LoaderButton.swift */,
+				078566EE29C5355900BC1134 /* HorizontalCollectionViewCell.swift */,
+				078566EF29C5355900BC1134 /* HorizontalCollectionViewCell.xib */,
+				07B9A3F629C569B40066A02B /* VerticalTableViewCell.swift */,
+				07B9A3F729C569B40066A02B /* VerticalTableViewCell.xib */,
+				079902F529C6A2CA00E26CAB /* ReviewTableViewCell.swift */,
+				079902F629C6A2CA00E26CAB /* ReviewTableViewCell.xib */,
 			);
 			path = Viajerum;
+			sourceTree = "<group>";
+		};
+		078566BF29C400BC00BC1134 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				078566CF29C4193400BC1134 /* GenericModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		078566C229C400E000BC1134 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				078566C329C400F900BC1134 /* AuthViewController.swift */,
+				078566CB29C40C7500BC1134 /* LoginViewController.swift */,
+				078566CD29C414AE00BC1134 /* RegisterViewController.swift */,
+				078566E029C510BA00BC1134 /* HomeViewController.swift */,
+				079902F329C6A04500E26CAB /* PlaceViewController.swift */,
+				07238D9629CA2D93004BC96B /* AddReviewViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		078566C529C402D400BC1134 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				078566C929C40A5F00BC1134 /* tilwrap.ttf */,
+				078566C729C4053A00BC1134 /* WorkSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		078566D729C4FDE100BC1134 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				078566D829C4FDF500BC1134 /* KeyChain.swift */,
+				079902F929C6DA5A00E26CAB /* HideKeyboard.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		07A4D95329CB85D20040ABCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07A4D95629CB86240040ABCE /* WebKit.framework */,
+				07A4D95429CB85D20040ABCE /* Network.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +190,9 @@
 			dependencies = (
 			);
 			name = Viajerum;
+			packageProductDependencies = (
+				07F3741829CA1D11008D0342 /* Cosmos */,
+			);
 			productName = Viajerum;
 			productReference = 078566A529C3F64E00BC1134 /* Viajerum.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +221,9 @@
 				Base,
 			);
 			mainGroup = 0785669C29C3F64E00BC1134;
+			packageReferences = (
+				07F3741729CA1D11008D0342 /* XCRemoteSwiftPackageReference "Cosmos" */,
+			);
 			productRefGroup = 078566A629C3F64E00BC1134 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,9 +238,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078566CA29C40A5F00BC1134 /* tilwrap.ttf in Resources */,
 				078566B829C3F64F00BC1134 /* LaunchScreen.storyboard in Resources */,
 				078566B529C3F64F00BC1134 /* Assets.xcassets in Resources */,
+				078566F129C5355900BC1134 /* HorizontalCollectionViewCell.xib in Resources */,
 				078566B029C3F64E00BC1134 /* Main.storyboard in Resources */,
+				079902F829C6A2CA00E26CAB /* ReviewTableViewCell.xib in Resources */,
+				078566C829C4053A00BC1134 /* WorkSans-Regular.ttf in Resources */,
+				07B9A3F929C569B40066A02B /* VerticalTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +256,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078566CC29C40C7500BC1134 /* LoginViewController.swift in Sources */,
 				078566B329C3F64E00BC1134 /* Viajerum.xcdatamodeld in Sources */,
+				078566E329C5169D00BC1134 /* LoaderButton.swift in Sources */,
+				078566CE29C414AE00BC1134 /* RegisterViewController.swift in Sources */,
+				07238D9729CA2D93004BC96B /* AddReviewViewController.swift in Sources */,
+				078566D029C4193400BC1134 /* GenericModel.swift in Sources */,
 				078566AD29C3F64E00BC1134 /* ViewController.swift in Sources */,
+				078566C429C400F900BC1134 /* AuthViewController.swift in Sources */,
+				079902F729C6A2CA00E26CAB /* ReviewTableViewCell.swift in Sources */,
+				079902FA29C6DA5A00E26CAB /* HideKeyboard.swift in Sources */,
 				078566A929C3F64E00BC1134 /* AppDelegate.swift in Sources */,
+				078566D929C4FDF500BC1134 /* KeyChain.swift in Sources */,
+				078566F029C5355900BC1134 /* HorizontalCollectionViewCell.swift in Sources */,
+				079902F429C6A04500E26CAB /* PlaceViewController.swift in Sources */,
+				078566E129C510BA00BC1134 /* HomeViewController.swift in Sources */,
 				078566AB29C3F64E00BC1134 /* SceneDelegate.swift in Sources */,
+				07B9A3F829C569B40066A02B /* VerticalTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +422,13 @@
 				DEVELOPMENT_TEAM = U6D3L34V7W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Viajerum/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Para mostrarte los lugares cercanos y recomendados";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Para mostrarte los lugares cercanos y recomendados";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,11 +452,13 @@
 				DEVELOPMENT_TEAM = U6D3L34V7W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Viajerum/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Para mostrarte los lugares cercanos y recomendados";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Para mostrarte los lugares cercanos y recomendados";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +494,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		07F3741729CA1D11008D0342 /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		07F3741829CA1D11008D0342 /* Cosmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07F3741729CA1D11008D0342 /* XCRemoteSwiftPackageReference "Cosmos" */;
+			productName = Cosmos;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		078566B129C3F64E00BC1134 /* Viajerum.xcdatamodeld */ = {
