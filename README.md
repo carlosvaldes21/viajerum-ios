@@ -20,11 +20,11 @@ Backend desarrollado con laravel y mysql para el almacenamiento de datos y auten
 
 ## Imágenes
 
-<img src="/1.png" align="left" width="150">
-<img src="/2.png" align="left" width="150">
-<img src="/3.png" align="left" width="150">
-<img src="/4.png" align="left" width="150">
-<img src="/5.png" align="left" width="150">
-<img src="/6.png" align="left" width="150">
-<img src="/7.png" align="left" width="150">
-<img src="/8.png" align="left" width="150">
+<img src="/1.PNG" align="left" width="150">
+<img src="/2.PNG" align="left" width="150">
+<img src="/3.PNG" align="left" width="150">
+<img src="/4.PNG" align="left" width="150">
+<img src="/5.PNG" align="left" width="150">
+<img src="/6.PNG" align="left" width="150">
+<img src="/7.PNG" align="left" width="150">
+<img src="/8.PNG" align="left" width="150">
