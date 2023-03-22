@@ -14,9 +14,9 @@ Al abrir Viajerum, deberás registrarte o iniciar sesión. La aplicación detect
 Si decides visitar uno de los lugares, puedes utilizar el botón de "como llegar" en la aplicación, para llegar fácilmente. Después de visitar un lugar, puedes agregar tu propia reseña para ayudar a otros usuarios a descubrir nuevos lugares.
 
 ## Tecnologías utilizadas
-Swift para el desarrollo de la aplicación
-XCode como IDE de desarrollo
-Backend desarrollado con laravel y mysql para el almacenamiento de datos y autenticación de usuarios
+- Swift para el desarrollo de la aplicación
+- XCode como IDE de desarrollo
+- Backend desarrollado con laravel y mysql para el almacenamiento de datos y autenticación de usuarios
 
 ## Descripción del logo
 El logo representa el amor por los viajes que tienen muchas personas, es por eso que viajerum se identificó con ese logo.
